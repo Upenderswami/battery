@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battery{
+    width: 400px;
+    height: 250px;
+    background-color: red;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+.charger
+{
+    width: 30px;
+    height: 100%;
+    background-color: chartreuse;
+    transition: 4s ease-in-out;
+
+
+}
+.battery:hover .charger
+{
+    width: 100%;
+    
+}
